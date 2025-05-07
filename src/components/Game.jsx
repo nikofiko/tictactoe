@@ -163,7 +163,7 @@ const Game = ({ turn, setTurn, game, setGame, resetGame, quitGame, player1Mark, 
   const baseClasses = 'cursor-pointer min-w-[96px] min-h-[96px] max-w-[96px] max-h-[96px] lg:min-w-[140px] lg:min-h-[140px] shadow-custom rounded-[10px]';
 
   return (
-    <div className='flex flex-col items-center justify-center pt-[80px] lg:pt-[139px]'>
+    <div className='flex flex-col items-center justify-center pt-[80px] lg:pt-[100px]'>
       <div className='flex gap-[34px] lg:gap-[100px] items-center pb-[25px]'>
         <div>
           <img src={logo} alt="" />
